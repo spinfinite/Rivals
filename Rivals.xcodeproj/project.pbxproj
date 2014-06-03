@@ -13,12 +13,14 @@
 		713E0844193E77E9006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E0842193E77E9006CA563 /* InfoPlist.strings */; };
 		713E0846193E77E9006CA563 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0845193E77E9006CA563 /* main.m */; };
 		713E084A193E77E9006CA563 /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0849193E77E9006CA563 /* RIAppDelegate.m */; };
-		713E084C193E77E9006CA563 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713E084B193E77E9006CA563 /* Images.xcassets */; };
 		713E0853193E77E9006CA563 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E0852193E77E9006CA563 /* XCTest.framework */; };
 		713E0854193E77E9006CA563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E0839193E77E9006CA563 /* Foundation.framework */; };
 		713E0855193E77E9006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E083D193E77E9006CA563 /* UIKit.framework */; };
 		713E085D193E77E9006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E085B193E77E9006CA563 /* InfoPlist.strings */; };
 		713E085F193E77E9006CA563 /* RivalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E085E193E77E9006CA563 /* RivalsTests.m */; };
+		713E086A193E77F4006CA563 /* RIBYUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0869193E77F4006CA563 /* RIBYUViewController.m */; };
+		713E086D193E77FD006CA563 /* RIUtahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E086C193E77FD006CA563 /* RIUtahViewController.m */; };
+		713E086F193E7A50006CA563 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713E086E193E7A50006CA563 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +44,16 @@
 		713E0847193E77E9006CA563 /* Rivals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rivals-Prefix.pch"; sourceTree = "<group>"; };
 		713E0848193E77E9006CA563 /* RIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIAppDelegate.h; sourceTree = "<group>"; };
 		713E0849193E77E9006CA563 /* RIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIAppDelegate.m; sourceTree = "<group>"; };
-		713E084B193E77E9006CA563 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		713E0851193E77E9006CA563 /* RivalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RivalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713E0852193E77E9006CA563 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		713E085A193E77E9006CA563 /* RivalsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RivalsTests-Info.plist"; sourceTree = "<group>"; };
 		713E085C193E77E9006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713E085E193E77E9006CA563 /* RivalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RivalsTests.m; sourceTree = "<group>"; };
+		713E0868193E77F4006CA563 /* RIBYUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIBYUViewController.h; sourceTree = "<group>"; };
+		713E0869193E77F4006CA563 /* RIBYUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIBYUViewController.m; sourceTree = "<group>"; };
+		713E086B193E77FD006CA563 /* RIUtahViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIUtahViewController.h; sourceTree = "<group>"; };
+		713E086C193E77FD006CA563 /* RIUtahViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIUtahViewController.m; sourceTree = "<group>"; };
+		713E086E193E7A50006CA563 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +115,11 @@
 			children = (
 				713E0848193E77E9006CA563 /* RIAppDelegate.h */,
 				713E0849193E77E9006CA563 /* RIAppDelegate.m */,
-				713E084B193E77E9006CA563 /* Images.xcassets */,
+				713E0868193E77F4006CA563 /* RIBYUViewController.h */,
+				713E0869193E77F4006CA563 /* RIBYUViewController.m */,
+				713E086B193E77FD006CA563 /* RIUtahViewController.h */,
+				713E086C193E77FD006CA563 /* RIUtahViewController.m */,
+				713E086E193E7A50006CA563 /* Images.xcassets */,
 				713E0840193E77E9006CA563 /* Supporting Files */,
 			);
 			path = Rivals;
@@ -221,7 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713E0844193E77E9006CA563 /* InfoPlist.strings in Resources */,
-				713E084C193E77E9006CA563 /* Images.xcassets in Resources */,
+				713E086F193E7A50006CA563 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713E086A193E77F4006CA563 /* RIBYUViewController.m in Sources */,
+				713E086D193E77FD006CA563 /* RIUtahViewController.m in Sources */,
 				713E0846193E77E9006CA563 /* main.m in Sources */,
 				713E084A193E77E9006CA563 /* RIAppDelegate.m in Sources */,
 			);
