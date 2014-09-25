@@ -19,6 +19,10 @@
 		713E0855193E77E9006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E083D193E77E9006CA563 /* UIKit.framework */; };
 		713E085D193E77E9006CA563 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713E085B193E77E9006CA563 /* InfoPlist.strings */; };
 		713E085F193E77E9006CA563 /* RivalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E085E193E77E9006CA563 /* RivalsTests.m */; };
+		E35E6DE719D39A8F0071E093 /* RIHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E6DE519D39A8F0071E093 /* RIHistoryViewController.m */; };
+		E35E6DE819D39A8F0071E093 /* RIHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35E6DE619D39A8F0071E093 /* RIHistoryViewController.xib */; };
+		E35E6DEC19D39ABA0071E093 /* RITimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35E6DEA19D39ABA0071E093 /* RITimerViewController.m */; };
+		E35E6DED19D39ABA0071E093 /* RITimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35E6DEB19D39ABA0071E093 /* RITimerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		713E085A193E77E9006CA563 /* RivalsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RivalsTests-Info.plist"; sourceTree = "<group>"; };
 		713E085C193E77E9006CA563 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713E085E193E77E9006CA563 /* RivalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RivalsTests.m; sourceTree = "<group>"; };
+		E35E6DE419D39A8F0071E093 /* RIHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIHistoryViewController.h; sourceTree = "<group>"; };
+		E35E6DE519D39A8F0071E093 /* RIHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIHistoryViewController.m; sourceTree = "<group>"; };
+		E35E6DE619D39A8F0071E093 /* RIHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RIHistoryViewController.xib; sourceTree = "<group>"; };
+		E35E6DE919D39ABA0071E093 /* RITimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITimerViewController.h; sourceTree = "<group>"; };
+		E35E6DEA19D39ABA0071E093 /* RITimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITimerViewController.m; sourceTree = "<group>"; };
+		E35E6DEB19D39ABA0071E093 /* RITimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RITimerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,12 @@
 			children = (
 				713E0848193E77E9006CA563 /* RIAppDelegate.h */,
 				713E0849193E77E9006CA563 /* RIAppDelegate.m */,
+				E35E6DE419D39A8F0071E093 /* RIHistoryViewController.h */,
+				E35E6DE519D39A8F0071E093 /* RIHistoryViewController.m */,
+				E35E6DE619D39A8F0071E093 /* RIHistoryViewController.xib */,
+				E35E6DE919D39ABA0071E093 /* RITimerViewController.h */,
+				E35E6DEA19D39ABA0071E093 /* RITimerViewController.m */,
+				E35E6DEB19D39ABA0071E093 /* RITimerViewController.xib */,
 				713E084B193E77E9006CA563 /* Images.xcassets */,
 				713E0840193E77E9006CA563 /* Supporting Files */,
 			);
@@ -220,6 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35E6DE819D39A8F0071E093 /* RIHistoryViewController.xib in Resources */,
+				E35E6DED19D39ABA0071E093 /* RITimerViewController.xib in Resources */,
 				713E0844193E77E9006CA563 /* InfoPlist.strings in Resources */,
 				713E084C193E77E9006CA563 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35E6DE719D39A8F0071E093 /* RIHistoryViewController.m in Sources */,
+				E35E6DEC19D39ABA0071E093 /* RITimerViewController.m in Sources */,
 				713E0846193E77E9006CA563 /* main.m in Sources */,
 				713E084A193E77E9006CA563 /* RIAppDelegate.m in Sources */,
 			);
@@ -438,6 +458,7 @@
 				713E0864193E77E9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E0865193E77E9006CA563 /* Build configuration list for PBXNativeTarget "RivalsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +467,7 @@
 				713E0867193E77E9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
